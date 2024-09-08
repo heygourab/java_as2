@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <h2>Login Page</h2>
+    <form action="LoginServlet" method="post">
+      <label>Password:</label>
+      <input type="password" name="password" required /><br /><br />
+
+      <input type="submit" value="Login" />
+    </form>
+
+    <!-- Error message display -->
+    <div style="color: red">${errorMessage}</div>
+  </body>
+</html>
